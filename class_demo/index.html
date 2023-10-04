@@ -4,18 +4,39 @@
     <title>Fun Test Experience</title>
     <meta name="author" content="AAnderson">
     <meta name="keywords" content="demo, learning, practice, webdesign">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .link {
+            font-size: smaller;
+        }
+        #funny-text {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
 </head>
 <body style="background-color: chocolate;">
-    <h1> Fun Test Experience </h1>
+    <div style="background-color: white;"> 
+    <h1> Fun <i> Test </i> Experience </h1>
+    <p> This is just filler text that is also part of my div</p>
+    </div>
     <table >
-        <tr style="background-color: blue;">
+        <tr>
             <th>Text thingies</th>
             <th>Non-text Things</th>
+            <th>extra column</th>
         </tr>
         <tr>
             <td style="font-size: larger;"><p style="color:purple">
             Lorem <strong>ipsum </strong>is placeholder text commonly used in the graphic, print, 
-            and publishing industies for previewing layouts and visual mockups. 
+            and <span style="background-color: bisque;"> publishing industies </span>for previewing layouts and visual mockups. 
             </p>
             <p style="color:purple">More elaboate text...</p>
         </tr>
@@ -23,7 +44,7 @@
             <img src="..\my_class_stream\images\dog.avif" width="300" alt="This is a picture of a dog">
         </td>
         <tr>
-            <td style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+            <td id="funny-text">
                 <ol>
                     <li><a href="https://www.w3schools.com/html/"> W3 Schools HTML Reference</a></li>
                     <li><a href="https://www.google.com/">Google Seach</a></li>
