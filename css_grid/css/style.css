@@ -41,7 +41,7 @@ ul.nav li a {
 }
 
 .main-image {
-    background-color: plum;
+    background-color: p;
     grid-column: 1 / span 3;
     grid-row: 2;
 
@@ -69,4 +69,11 @@ ul.nav li a {
     text-align: center;
     width: 100%;
     background-color: white;
+}
+
+
+.grid-container-2 {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto auto 25px;
 }
