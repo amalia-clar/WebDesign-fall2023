@@ -1,0 +1,18 @@
+body {
+    ul {
+       list-style-type: none;
+       margin: 9px;
+       padding: 9px;
+       overflow: hidden;
+       display: block;
+       border: 1px solid #000000;
+       width: 50%;
+       float: center;
+       
+    }
+   }
+    
+#background {
+   margin-left: 32%;
+}
+  
