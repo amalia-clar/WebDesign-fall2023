@@ -10,6 +10,15 @@ body {
     overflow: hidden;
 }
 
+.navbar {
+    border-spacing: 40px;
+    background-color: rgb(144, 211, 201);
+    font-size: 20px;
+    color: rgba(10, 82, 1, 0.532);  
+}
+
+     
+
 ul.nav li {
     float: left;
 }
@@ -53,3 +62,13 @@ ul.nav li a {
     width: 100%;
     background-color: rgba(10, 82, 1, 0.532);
 }
+
+
+
+    ul a:hover {
+        background-color: #bfdbb6;
+    }
+    ul p:hover {
+        background-color: #bfdbb6;
+
+    }
