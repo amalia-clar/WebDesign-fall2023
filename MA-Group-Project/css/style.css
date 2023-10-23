@@ -56,6 +56,28 @@ ul.nav li a {
     grid-column: 1 / span 3;
 }
 
+<<<<<<< HEAD
+=======
+ul a:hover {
+    background-color: #bfdbb6;
+}
+ul p:hover {
+    background-color: #bfdbb6;
+
+}
+
+.main1 {
+    grid-column: 1 / span 1;
+    grid-row: 4;
+}
+
+.image1 {
+    background-color: p;
+    grid-column: 2 / span 2;
+    grid-row: 4;
+}
+
+>>>>>>> a291cdef1370b184206b72ecdc24bf220cb8405e
 .footer {
     position: fixed;
     left: 0;
