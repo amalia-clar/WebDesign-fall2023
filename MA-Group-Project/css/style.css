@@ -68,6 +68,7 @@ ul p:hover {
 }
 
 .image1 {
+    background-color: p;
     grid-column: 2 / span 2;
     grid-row: 3;
 }
