@@ -128,14 +128,37 @@ ul p:hover {
     grid-row: 7;
     
     
-   
     }
 .main05 {
     grid-column: 3 / span 1;
     grid-row: 7; 
     
 }
-
+.main01 {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    }
+.image01 {
+    grid-column: 1 / span 1;
+    grid-row: 4;
+    
+    }
+.main02 {
+    grid-column: 2 / span 2;
+    grid-row: 5;
+    
+    }
+.image02 {
+    grid-column: 1 / span 1;
+    grid-row: 5;
+    
+   
+    }
+.main03 {
+    grid-column: 2 / span 1;
+    grid-row: 6; 
+   
+}
 
 .footer {
     position: fixed;
