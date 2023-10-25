@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JS Demo </title>
+    </head>
+
+    <body>
+        <h1> Let's learn javascript! </h1>
+
+        <h2> How to do onclick events </h2>
+        <a href="https://eastsideprep.org" target="_blank"
+            onclick="alert('Warning! You are navigating away from this pagt')"> School website </a>
+        <hr>
+        <h2> Display a secret message on button click </h2>
+        <p id="secret"></p>
+        <button
+            onclick="document.getElementById('secret').innerHTML='shhh very secret';
+            getElementById('secret').style.display='block' "> Reveal! </button>
+        <button onclick="getElementById('secret').style.display='none' "> Hide! </button>
+
+    <hr>
+    <h2> Two truths and a lie </h2>
+
+    <p>Choose which one is the lie:</p>
+    <form>
+        <input type="radio" id="statement1" name="2truths&1lie" value="true">
+        <label for="statement1">I have been outside of the country</label><br>
+        <input type="radio" id="statement2" name="2truths&1lie" value="true">
+        <label for="statement2">I know how to surf</label><br>
+        <input type="radio" id="statement3" name="2truths&1lie" value="false">
+        <label for="statement3"></label>
+
+        <button>Submit</button>
+
+
+    </body>
+
+</html>
