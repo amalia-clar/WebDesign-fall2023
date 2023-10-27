@@ -140,3 +140,13 @@ ul p:hover {
         background-color: #bfdbb6;
 
     }
+
+    .d1 {
+        grid-column: 1;
+        grid-row: 5;
+    }
+    
+    .d2 {
+        grid-column: 3;
+        grid-row: 6;
+    }
