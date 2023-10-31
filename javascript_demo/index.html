@@ -26,6 +26,7 @@
     </form>
 
     <h2>Two truths and a lie:</h2>
+    <h4>Choose which one the lie is</h4>
     <form id="2truths">
         <input type="radio" id="statement1" name="2truths&1lie" value="true">
         <label for="statement1">I have been outside of the country</label><br>
@@ -33,7 +34,7 @@
         <label for="statement2">I know how to surf</label><br>
         <input type="radio" id="statement3" name="2truths&1lie" value="false">
         <label for="statement3"> I currently have three pets </label><br>
-        <button type="submit" onclick="checkTruth()">Submit </button>
+        <button type="button" onclick="checkTruth()">Submit </button>
     </form>
     <p id="answer"></p>
 
@@ -52,21 +53,21 @@
             function checkTruth() {
                 let answerTag = document.getElementById('answer');
                 if(document.getElementById('statement1').checked ) {
-                    answerTag.innerHTML='truth';
+                    answerTag.innerHTML='Incorrect, this is true';
                     answerTag.style.color = "green";
-                    answerTag.stle.display = 'block';
+                    answerTag.style.display = 'block';
                 }
 
                 if(document.getElementById('statement2').checked ) {
-                    answerTag.innerHTML='truth';
+                    answerTag.innerHTML='Incorrect, this is true';
                     answerTag.style.color = "green";
-                    answerTag.stle.display = 'block';
+                    answerTag.style.display = 'block';
                 }
                 
                 if(document.getElementById('statement3').checked ) {
-                    answerTag.innerHTML='lie';
+                    answerTag.innerHTML='Correct, this is the lie!';
                     anwerTag.style.color = "red";
-                    answerTag.stle.display = 'block';
+                    answerTag.style.display = 'block';
                 }
             }
         </script>
