@@ -10,6 +10,15 @@ ul.nav li a {
     font-size: 20px;
 }
 
+.navbar {
+    border-spacing: 40px;
+    background-color: rgb(144, 211, 201);
+    color:#081826; 
+    border-spacing: 40px;
+    font-size: 20px;
+    color: rgba(10, 82, 1, 0.532);  
+}
+
 .grid-container {
     display: grid;
     grid-gap: 10px;
@@ -17,13 +26,25 @@ ul.nav li a {
 }
 
 .navmenu {
-    grid-row: 1 / span 2;
-    grid-column: 1;
+    grid-row: 2;
+    grid-column: 1 / span 2;
+}
+
+.grid-item {
+    background-color: #a6c45d;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px;
+}
+
+.logo {
+    grid-row: 1; 
+    grid-column: 1 / span 2;
 }
 
 .hours {
-    grid-row: 1 / span 2;
-    grid-column: 4;
+    grid-row: 3;
+    grid-column: 1 / span 2;
 }
 
 .who-we-are-1 {
@@ -37,6 +58,6 @@ ul.nav li a {
 }
 
 .location {
-    grid-row: 6 / span 2;
-    grid-column: 1;
+    grid-row: 5 / span 2;
+    grid-column: 2;
 }
