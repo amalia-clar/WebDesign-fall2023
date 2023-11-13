@@ -83,6 +83,21 @@ ul.nav li a {
 }
 
 .contact { 
-    grid-row: 3: 
+    grid-row: 3;
     grid-column: 1;
+}
+
+.catering {
+    grid-row: 4; 
+    grid-column: 1; 
+}
+
+.order-online {
+    grid-row: 1; 
+    grid-column: 1 / span 2;
+}
+
+.ordering-links {
+    grid-row: 4; 
+    grid-column: 1 / span 2; 
 }
