@@ -61,3 +61,28 @@ ul.nav li a {
     grid-row: 5 / span 2;
     grid-column: 2;
 }
+
+.our-menu {
+    grid-row: 2; 
+    grid-column: 1 / span 2;
+}
+
+.menu {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+}
+
+.contact-us {
+    grid-row: 2; 
+    grid-column: 1 / span 2;
+}
+
+.forms {
+    grid-row: 3;
+    grid-column: 2; 
+}
+
+.contact { 
+    grid-row: 3: 
+    grid-column: 1;
+}
