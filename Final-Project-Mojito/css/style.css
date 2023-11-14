@@ -1,6 +1,10 @@
 body {
     background-color: #a6c45d;
+    font-family: "change", sans-serif;
+font-weight: 400;
+font-style: normal;;
 }
+
 
 ul.nav li a {
     display: block;
@@ -63,7 +67,7 @@ ul.nav li a {
 }
 
 .our-menu {
-    grid-row: 2; 
+    grid-row: 1; 
     grid-column: 1 / span 2;
 }
 
@@ -72,8 +76,16 @@ ul.nav li a {
     grid-column: 1 / span 2;
 }
 
+.menu2 {
+    width: 650;
+    height: 2000;
+    padding: 10px; 
+    border: 5px solid #E8DE17;
+    margin: 0;
+}
+
 .contact-us {
-    grid-row: 2; 
+    grid-row: 1; 
     grid-column: 1 / span 2;
 }
 
@@ -97,7 +109,40 @@ ul.nav li a {
     grid-column: 1 / span 2;
 }
 
+.order-from-here {
+    grid-row: 3; 
+    grid-column: 1 / span 2;
+}
+
 .ordering-links {
-    grid-row: 4; 
+    grid-row: 4 / span 4; 
     grid-column: 1 / span 2; 
+}
+
+.chow-now {
+    width: 50;
+    height: 60;
+    border: 3px solid #E8DE17;
+    margin: 0;
+}
+
+.uber-eats {
+    width: 50;
+    height: 60;
+    border: 3px solid #E8DE17;
+    margin: 0;
+}
+
+.postmates {
+    width: 50;
+    height: 60;
+    border: 3px solid #E8DE17;
+    margin: 0;
+}
+
+.grubhub {
+    width: 50;
+    height: 60;
+    border: 3px solid #E8DE17;
+    margin: 0;
 }
